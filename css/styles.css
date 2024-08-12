@@ -81,10 +81,11 @@ img {
   gap: 40px;
   margin-right: 332px;
 }
-.menu-item {
+.menu-link {
   position: relative;
+  color: #404bbf
 }
-.menu-item:not(:last-child)::after {
+.menu-link::after {
   content: '';
   width: 100%;
   left: 0;
